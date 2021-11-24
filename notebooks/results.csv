@@ -1,0 +1,411 @@
+Ingedient,Weight(g),Emissions(gCO2)
+Allspice,1000,1133
+Almond extract,1000,656
+Almonds,1000,2856
+Anchovies,1000,4220
+Apple juice,1000,2440
+Apple sauce,1000,2146
+Apples,1000,900
+Apricot,1000,430
+Artichoke,1000,338
+Asparagus,1000,7032
+Aubergine,1000,3095
+Avocados,1000,2400
+Bacon,1000,6628
+Bagel,1000,1215
+Baguette,1000,1301
+Baked beans,1000,2467
+Bananas,1000,1300
+Barbeque sauce,1000,222
+Barley,1000,1118
+Basil,1000,1133
+Bay leaves,1000,1133
+Beef,1000,43330
+Beer,1000,876
+Beetroot,1000,1136
+Berries,1000,2860
+Biscuits,1000,1303
+Black beans,1000,852
+Black pepper,1000,1133
+Black tea,1000,605
+Brandy,1000,2320
+Bread,1000,1215
+Bread crumbs,1000,1215
+Bread roll,1000,1215
+Broccoli,1000,1081
+Brussels Sprouts,1000,750
+Buckwheat,1000,718
+Bulgar,1000,760
+Butter,1000,9758
+Buttermilk,1000,1100
+Cabbage,1000,622
+Cabbage - pickled,1000,2569
+Cacao nibs,1000,2655
+Cacao powder,1000,4440
+Carrot,1000,1133
+Cashew nuts,1000,2091
+Cassava Starch,1000,594
+Cauliflower,1000,971
+Cayenne pepper,1000,1133
+Celery,1000,844
+Cheese,1000,8787
+Cheese - brie,1000,7417
+Cheese - camambert,1000,7111
+Cheese - cheddar,1000,7417
+Cheese - cottage,1000,2445
+Cheese - cream,1000,6440
+Cheese - edam,1000,7111
+Cheese - emmental,1000,7111
+Cheese - feta,1000,7111
+Cheese - goats,1000,7111
+Cheese - gouda,1000,7417
+Cheese - mascarpone,1000,7417
+Cheese - mascarpone,1000,7417
+Cheese - paneer,1000,7111
+Cheese - parmesan,1000,7111
+Cheese - prato,1000,7417
+Cheese - quark,1000,2445
+Cheese - stilton,1000,7417
+Cheesecake,1000,5482
+Cherries,1000,2860
+Cherries - frozen,1000,2520
+Chestnuts,1000,1460
+Chia seeds,1000,4200
+Chickpeas,1000,852
+Chilli flakes,1000,1133
+Chilli pepper,1000,2019
+Chilli powder,1000,1133
+Chips,1000,3822
+Chives,1000,1133
+Chocolate,1000,5763
+Chocolate biscuit,1000,2700
+Chocolate chips,1000,5763
+Chocolate spread,1000,4388
+Chutney,1000,1656
+Cider bottle,1000,876
+Cider can,1000,660
+Cinnamon,1000,1133
+Clams,1000,3036
+Cloves,1000,1133
+Cockles,1000,3036
+Cocoa drink powder,1000,4440
+Coconut oil,1000,2415
+Coconut sugar,1000,656
+Cod,1000,3214
+Coffee beans,1000,4500
+Coley,1000,4362
+Coriander,1000,1133
+Corn,1000,405
+Corn crisps,1000,1325
+Corn oil,1000,1199
+Cottonseed oil,1000,2140
+Courgette,1000,861
+Couscous,1000,2440
+Crab,1000,17746
+Crackers,1000,1155
+Cranberries,1000,2860
+Crayfish,1000,17746
+Cream,1000,3724
+Cream - plant-based,1000,1873
+Crepe,1000,711
+Crisps,1000,4410
+Crumpet,1000,1215
+Cucumber,1000,1928
+Cucumber - pickled,1000,4074
+Cumin,1000,1133
+Currants,1000,2100
+Custard,1000,2454
+Date,1000,2100
+Dill,1000,1133
+Doughnut,1000,6579
+Dried peas (shelled),1000,2388
+Duck,1000,5054
+Eel,1000,4220
+Eggs,1000,4506
+Espresso,1000,706
+Faba beans,1000,852
+Falafel,1000,2510
+Fennel seeds,1000,4200
+Fish sauce,1000,222
+Fish sticks,1000,1906
+Fisherman Pie,1000,7778
+Five spice,1000,1133
+Flapjacks,1000,6840
+Flat White,1000,1613
+Flatfish,1000,4362
+Flounder,1000,4362
+Flour,1000,891
+Flour - rye,1000,709
+Food colouring,1000,656
+Frozen pulses,1000,1834
+Fruit cordial,1000,1927
+Fruit juice,1000,1711
+Fruit pie,1000,1578
+Fruit tea,1000,605
+Fudge,1000,2412
+Gammon,1000,6628
+Garam Masala,1000,1133
+Garlic,1000,452
+Ginger,1000,452
+Gluten-free biscuit,1000,3300
+Goat,1000,35714
+Golden syrup,1000,656
+Goose,1000,5054
+Granola,1000,4016
+Grapefruit juice,1000,2060
+Grapefruits,1000,800
+Grapes,1000,2300
+Gravy,1000,222
+Green beans,1000,5668
+Green tea,1000,605
+Groundnut oil,1000,900
+Guinea fowl,1000,5054
+Haddock,1000,4362
+Hake,1000,4362
+Halibut,1000,4362
+Ham,1000,6628
+Haricot beans,1000,852
+Hazelnut paste,1000,1266
+Hazelnut spread,1000,2710
+Hazelnuts - chocolate covered,1000,3430
+Herbal tea,1000,605
+Herbs and spices,1000,1133
+Herring,1000,1586
+Hoki,1000,4362
+Honey,1000,1657
+Hot chocolate,1000,2727
+Hummus,1000,852
+Ice cream,1000,3802
+Icing - to roll,1000,656
+Instant Coffee,1000,706
+Jam,1000,2146
+Jasmin tea,1000,605
+Kale,1000,1609
+Kidney beans,1000,852
+Kipper,1000,4220
+Kiwi,1000,621
+Krill,1000,17746
+Lamb,1000,20825
+Lard,1000,6116
+Latte,1000,1613
+Leek,1000,1051
+Lemon Juice,1000,622
+Lemon sole,1000,4362
+Lemons,1000,1900
+Lentils,1000,670
+Lettuce,1000,2063
+Lime,1000,1900
+Lime Juice,1000,622
+Liquorice,1000,2412
+Lobster,1000,17746
+Macaroni,1000,1374
+Mackerel,1000,895
+Maize,1000,510
+Mandarins,1000,1100
+Mangoes,1000,4400
+Maple syrup,1000,656
+Marmalade,1000,2146
+Marmite,1000,1660
+Marshmallows,1000,2412
+Marzipan,1000,1657
+Mayonnaise,1000,4030
+Meatless,1000,2290
+Melons,1000,900
+Milk,1000,1762
+Milk - buffalo,1000,3380
+Milk - concentrated,1000,3100
+Milk - goats,1000,2670
+Milk - plant-based,1000,545
+Milk - sheeps,1000,8400
+Milk - soy,1000,782
+Mint,1000,1133
+Mints,1000,2412
+Mirin,1000,222
+Miso paste,1000,222
+Mixed nuts,1000,2056
+Mixed seeds,1000,2978
+Mocha,1000,1613
+Muesli,1000,1015
+Muffin,1000,6579
+Mushrooms,1000,1405
+Mussels,1000,3036
+Mustard,1000,222
+Mustard oil,1000,2900
+Naan bread - plain,1000,1215
+Nectarines,1000,1900
+Noodles,1000,1374
+Nutmeg,1000,1133
+Oat flakes,1000,790
+Oatly Oat Drink,1000,318
+Oatly Oat Drink - Barista Edition,1000,376
+Oatly Oat Drink - Calcium,1000,283
+Oatly Oat Drink - Calcium Organic,1000,395
+Oatly Oat Drink - Chocolate,1000,350
+Oatly Oat Drink - Chocolate Deluxe,1000,330
+Oatly Oat Drink - Deluxe,1000,300
+"Oatly Oat Drink - Deluxe (Germany, Austria, Netherlands)",1000,685
+Oatly Oat Drink - Low-Fat,1000,390
+Oatly Oat Drink - Low-Fat Organic,1000,290
+Oatly Oat Drink - Orange Mango,1000,385
+Oatly Oat Drink - Organic,1000,321
+Oatly Oat Drink - Semi-skimmed,1000,515
+Oatly Oat Drink - Semi-skimmed Organic,1000,315
+Oatly Oat Drink - Vanilla,1000,430
+Oatly Oat Drink - Vanilla Organic,1000,350
+Oats,1000,785
+Octopus,1000,3036
+Olive oil,1000,2526
+Olives,1000,463
+Onion,1000,1051
+Onion - frozen,1000,2308
+Onion - pickled,1000,2543
+Orange juice,1000,2000
+Oranges,1000,1900
+Oregano,1000,1133
+Other pulses,1000,3300
+Other spirits,1000,2320
+Oyster sauce,1000,222
+Oysters,1000,3036
+Palm oil,1000,6116
+Pancake,1000,711
+Pancetta,1000,6628
+Pangasius,1000,4362
+Papaya,1000,4400
+Paprika,1000,1133
+Parsley,1000,1133
+Parsnips,1000,678
+Passata,1000,1959
+Pasta,1000,1374
+Pastry,1000,6579
+Peaches,1000,1900
+Peaches - canned,1000,2900
+Peanut,1000,1360
+Peanut butter,1000,2107
+Peanut oil,1000,3637
+Pears,1000,1028
+Peas,1000,4228
+Peas,1000,2324
+Pecan,1000,2129
+Peppermint extract,1000,656
+Peppers,1000,2019
+Peppers - green,1000,2019
+Peppers - pickled,1000,3840
+Pesto,1000,2526
+Pineapple juice,1000,2523
+Pineapples,1000,1700
+Pineapples - dried,1000,4900
+Pistachio,1000,2330
+Pitta bread,1000,1215
+Plaice,1000,4362
+Plant-based spread,1000,3081
+Plums,1000,1125
+Prunes,1000,4440
+Polenta,1000,760
+Pollock,1000,3214
+Pork,1000,6628
+Porridge,1000,3958
+Potatoes,1000,1273
+Prawn,1000,17746
+Pumpkin seeds,1000,4200
+Quinoa,1000,816
+Quorn,1000,2400
+Quorn Classic Burger,1000,2550
+Quorn Crispy Nuggets,1000,1967
+Quorn Mince,1000,1691
+Quorn Pieces,1000,1709
+Quorn Sausages,1000,1700
+Quorn Vegan Nuggets,1000,2550
+Quorn Vegan Pieces,1000,1600
+Rabbit,1000,11019
+Raisins,1000,2100
+Rapeseed oil,1000,2404
+Raspberries,1000,2569
+Raspberries - frozen,1000,2300
+Red onion,1000,1051
+Relish,1000,1656
+Rhubarb,1000,844
+Rice,1000,1354
+Rocket,1000,1609
+Rosemary,1000,1133
+Rum,1000,2320
+Sage,1000,1133
+Salad cream,1000,4030
+Salad dressing,1000,4607
+Salad leaves,1000,1609
+Salmon,1000,4787
+Salt,1000,1133
+Sausage,1000,6628
+Sardines,1000,4220
+Scallops,1000,3036
+Scones,1000,3064
+Sea bass,1000,4362
+Seabass,1000,4362
+Seaweed,1000,3036
+Sesameseed oil,1000,4200
+Shallot,1000,1051
+Shepherds Pie - ready meal,1000,12222
+Sherry,1000,1369
+Shrimp,1000,17746
+Snack bar - chocolate,1000,5070
+Snack bar - muesli,1000,6840
+Soft drink,1000,622
+Soft drink,1000,622
+Soy sauce,1000,222
+Soybean oil,1000,1583
+Soybeans,1000,2000
+Spagheti Bolognese - ready meal,1000,11667
+Spaghetti,1000,1374
+Spinach,1000,1457
+Spinach - canned,1000,1787
+Spinach - frozen,1000,1571
+Spring onion,1000,1051
+Squash,1000,1162
+Squid,1000,3036
+Steak,1000,43330
+Stir fry sauce,1000,222
+Stock,1000,222
+Strawberries,1000,2243
+Strawerries - frozen,1000,2334
+Sugar,1000,656
+Sunflower oil,1000,2545
+Sunflower seeds,1000,848
+Swedes,1000,678
+Sweet potato,1000,1273
+Sweetcorn - canned,1000,2605
+Sweetcorn - frozen,1000,2524
+Sweetcorn - on the cob,1000,1576
+Sweetcorn - packaged,1000,2406
+Sweets,1000,2412
+Sweets - milk-based,1000,4210
+Tagliatelle,1000,1374
+Tahini,1000,852
+Tamari,1000,222
+Tapioca starch,1000,594
+Tea - with milk,1000,631
+Tempeh,1000,1093
+Tequila,1000,2320
+Thyme,1000,1133
+Toffee,1000,2412
+Tomatoes,1000,2905
+Tortilla wrap,1000,1081
+Treacle,1000,656
+Trout,1000,4220
+Tuna,1000,10165
+Turkey,1000,6448
+Turmeric,1000,1133
+Turnips,1000,678
+Valess,1000,5008
+Vanilla,1000,656
+Veal,1000,18938
+Vegetable oil,1000,3200
+Venison,1000,20986
+Vinegar,1000,222
+Vodka,1000,2320
+Walnut,1000,2129
+Watercress,1000,1609
+Wheat,1000,718
+Whiskey,1000,2320
+Whiting,1000,4362
+Wine,1000,1369
+Worcestershire sauce,1000,222
+Yogurt,1000,2200
