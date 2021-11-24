@@ -2,7 +2,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 from pydantic import BaseModel
-
+import pickle
+import numpy as np
+import json
 app = FastAPI()
 
 app.add_middleware(
@@ -24,5 +26,8 @@ class Item(BaseModel):
 
 @app.post("/items/")
 async def create_item(item: Item):
-    str_np = item.image_reshape
-    return item
+    response = np.array(json.loads(item.image_reshape))
+    response_reshape=response.reshape((item.height,item.width,item.color))
+    filehandler = open(b"Image.obj","wb")
+    pickle.dump(response_reshape,filehandler)
+    return "item"
