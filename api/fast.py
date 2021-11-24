@@ -5,6 +5,11 @@ from pydantic import BaseModel
 import pickle
 import numpy as np
 import json
+import tensorflow as tf
+import os
+from tensorflow import keras
+from fritz.utils import load_model, load_classes
+
 app = FastAPI()
 
 app.add_middleware(
@@ -23,6 +28,27 @@ class Item(BaseModel):
     height:int
     width:int
     color:int
+
+# model_path= os.path.join('..','models/10_VGG16.h5')
+model_path='/home/mateo/code/Matbeac/fritz/models/10_VGG16.h5'
+classes_path= '/home/mateo/code/Matbeac/fritz/models/10_VGG16.csv'
+model = load_model(model_path)
+
+@app.post("/predict")
+async def predict(image:Item):
+    # Get the image from the upload
+    response = np.array(json.loads(image.image_reshape))
+    response_reshape=response.reshape((image.height,image.width,image.color))    
+    
+    # Resize the image ⚠ WITHOUT PAD
+    response_reshape = tf.image.resize(response_reshape,[224, 224])
+    
+    # Load the model
+    probabilities=model.predict(np.array([response_reshape/255]))
+    index=np.argmax(probabilities)
+    recipe = load_classes(classes_path,index)
+    return recipe
+    
 
 @app.post("/items/")
 async def create_item(item: Item):
