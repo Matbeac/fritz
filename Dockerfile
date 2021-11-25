@@ -2,7 +2,7 @@ FROM python:3.8.6-buster
 
 COPY api /api
 COPY fritz /fritz
-COPY model.joblib /model.joblib
+COPY models /models
 COPY requirements.txt /requirements.txt
 
 RUN pip install -r requirements.txt
