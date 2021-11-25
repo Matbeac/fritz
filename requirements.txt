@@ -1,35 +1,24 @@
-# packaging
 pip>=9
 setuptools>=26
-twine
 wheel>=0.29
-
-# data science
-numpy
 pandas
-scikit-learn
-
-# Deep learning
-keras
-tensorflow<2.6
-
-# tests/linter
-black
+pytest
 coverage
 flake8
-pytest
+black
 yapf
-
-# API
-gcsfs
-google-cloud-storage
+python-gitlab
+twine
+six==1.14.0
+numpy==1.18.5
+pandas
+scikit-learn==0.22
+joblib
+memoized-property
 mlflow
 s3fs
-
-# utilities
-six>=1.14
-memoized-property
+gcsfs
+google-cloud-storage
 termcolor
-
 uvicorn
 fastapi
