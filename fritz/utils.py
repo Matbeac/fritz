@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 import pandas as pd
 import collections
-from dotenv import load_dotenv, find_dotenv
+from keys import *
 
 def load_model(model_path):
     model = keras.models.load_model(model_path)
@@ -15,11 +15,11 @@ def load_classes(classes_path,index):
     classes=pd.read_csv(classes_path)
     return classes.iloc[index,0]
 
-# Fetch credentials
-env_path = join(dirname(dirname(__file__)), '.env')  # ../.env
-env_path = find_dotenv()  # automatic find
-load_dotenv(env_path)
-api_key_rapidapi = os.getenv("RAPIDAPI_MATEO_KEY")
+# # Fetch credentials
+# env_path = join(dirname(dirname(__file__)), '.env')  # ../.env
+# env_path = find_dotenv()  # automatic find
+# load_dotenv(env_path)
+# api_key_rapidapi = os.getenv("RAPIDAPI_MATEO_KEY")
 
 def recipes_call(dish, food_type, results_number=20):
 
@@ -28,7 +28,7 @@ def recipes_call(dish, food_type, results_number=20):
     id_querystring = {f"query":{dish},"number":{results_number}, "type":{food_type}}
     id_headers = {
         "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-        "x-rapidapi-key": api_key_rapidapi
+        "x-rapidapi-key": get_api_key()
         }
     get_id_response = requests.request("GET", get_id_url, headers=id_headers, params=id_querystring)
 

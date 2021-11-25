@@ -30,7 +30,7 @@ class Item(BaseModel):
     color:int
 
 # model_path= os.path.join('..','models/10_VGG16.h5')
-model_path='/home/mateo/code/Matbeac/fritz/models/10_VGG16.h5'
+model_path='/home/mateo/code/Matbeac/fritz/models/10_86_7_DN121_AUG_TV_ES5_RLR1_TL2_ES5_RLR1_TL3.h5'
 classes_path= '/home/mateo/code/Matbeac/fritz/models/10_VGG16.csv'
 model = load_model(model_path)
 
