@@ -1,6 +1,6 @@
 import os
 import tensorflow
-from tensorflow import keras
+from tensorflow import _API_MODULE, keras
 import pandas as pd
 import requests
 import pandas as pd
@@ -15,11 +15,8 @@ def load_classes(classes_path,index):
     classes=pd.read_csv(classes_path)
     return classes.iloc[index,0]
 
-# # Fetch credentials
-# env_path = join(dirname(dirname(__file__)), '.env')  # ../.env
-# env_path = find_dotenv()  # automatic find
-# load_dotenv(env_path)
-# api_key_rapidapi = os.getenv("RAPIDAPI_MATEO_KEY")
+# key API
+api_key = get_api_key()
 
 def recipes_call(dish, food_type, results_number=20):
 
@@ -28,7 +25,7 @@ def recipes_call(dish, food_type, results_number=20):
     id_querystring = {f"query":{dish},"number":{results_number}, "type":{food_type}}
     id_headers = {
         "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-        "x-rapidapi-key": get_api_key()
+        "x-rapidapi-key": api_key
         }
     get_id_response = requests.request("GET", get_id_url, headers=id_headers, params=id_querystring)
 
@@ -63,7 +60,7 @@ def id_call(dish, food_type, results_number=20):
     get_recipe_url = f"https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/{recipe_id}/ingredientWidget.json"
     recipe_headers = {
         "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-        "x-rapidapi-key": api_key_rapidapi
+        "x-rapidapi-key": api_key
         }
     get_recipe_response = requests.request("GET", get_recipe_url, headers=recipe_headers)
 
