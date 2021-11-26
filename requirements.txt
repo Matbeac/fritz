@@ -1,10 +1,7 @@
 pip>=9
 setuptools>=26
 wheel>=0.29
-<<<<<<< HEAD
-pandas
 pytest
-=======
 
 # data science
 numpy==1.18.5
@@ -16,12 +13,12 @@ tensorflow<2.6
 
 # tests/linter
 black==19.10b0
->>>>>>> 22b951ceea8afdf2eca186d07b785dbac058e2d6
+
 coverage
 flake8
 black
 yapf
-<<<<<<< HEAD
+
 python-gitlab
 twine
 six==1.14.0
@@ -35,7 +32,6 @@ s3fs
 gcsfs
 google-cloud-storage
 termcolor
-=======
 
 # API
 gcsfs
@@ -47,6 +43,5 @@ s3fs
 six>=1.14
 #memoized-property
 
->>>>>>> 22b951ceea8afdf2eca186d07b785dbac058e2d6
 uvicorn
 fastapi
