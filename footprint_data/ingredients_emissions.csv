@@ -1,0 +1,411 @@
+,ingredient,value,emissions
+0,allspice,1000,1133
+1,almond extract,1000,656
+2,almonds,1000,2856
+3,anchovies,1000,4220
+4,apple juice,1000,2440
+5,apple sauce,1000,2146
+6,apples,1000,900
+7,apricot,1000,430
+8,artichoke,1000,338
+9,asparagus,1000,7032
+10,aubergine,1000,3095
+11,avocados,1000,2400
+12,bacon,1000,6628
+13,bagel,1000,1215
+14,baguette,1000,1301
+15,baked beans,1000,2467
+16,bananas,1000,1300
+17,barbeque sauce,1000,222
+18,barley,1000,1118
+19,basil,1000,1133
+20,bay leaves,1000,1133
+21,beef,1000,43330
+22,beer,1000,876
+23,beetroot,1000,1136
+24,berries,1000,2860
+25,biscuits,1000,1303
+26,black beans,1000,852
+27,black pepper,1000,1133
+28,black tea,1000,605
+29,brandy,1000,2320
+30,bread,1000,1215
+31,bread crumbs,1000,1215
+32,bread roll,1000,1215
+33,broccoli,1000,1081
+34,brussels sprouts,1000,750
+35,buckwheat,1000,718
+36,bulgar,1000,760
+37,butter,1000,9758
+38,buttermilk,1000,1100
+39,cabbage,1000,622
+40,cabbage - pickled,1000,2569
+41,cacao nibs,1000,2655
+42,cacao powder,1000,4440
+43,carrot,1000,1133
+44,cashew nuts,1000,2091
+45,cassava starch,1000,594
+46,cauliflower,1000,971
+47,cayenne pepper,1000,1133
+48,celery,1000,844
+49,cheese,1000,8787
+50,cheese - brie,1000,7417
+51,cheese - camambert,1000,7111
+52,cheese - cheddar,1000,7417
+53,cheese - cottage,1000,2445
+54,cheese - cream,1000,6440
+55,cheese - edam,1000,7111
+56,cheese - emmental,1000,7111
+57,cheese - feta,1000,7111
+58,cheese - goats,1000,7111
+59,cheese - gouda,1000,7417
+60,cheese - mascarpone,1000,7417
+61,cheese - mascarpone,1000,7417
+62,cheese - paneer,1000,7111
+63,cheese - parmesan,1000,7111
+64,cheese - prato,1000,7417
+65,cheese - quark,1000,2445
+66,cheese - stilton,1000,7417
+67,cheesecake,1000,5482
+68,cherries,1000,2860
+69,cherries - frozen,1000,2520
+70,chestnuts,1000,1460
+71,chia seeds,1000,4200
+72,chickpeas,1000,852
+73,chilli flakes,1000,1133
+74,chilli pepper,1000,2019
+75,chilli powder,1000,1133
+76,chips,1000,3822
+77,chives,1000,1133
+78,chocolate,1000,5763
+79,chocolate biscuit,1000,2700
+80,chocolate chips,1000,5763
+81,chocolate spread,1000,4388
+82,chutney,1000,1656
+83,cider bottle,1000,876
+84,cider can,1000,660
+85,cinnamon,1000,1133
+86,clams,1000,3036
+87,cloves,1000,1133
+88,cockles,1000,3036
+89,cocoa drink powder,1000,4440
+90,coconut oil,1000,2415
+91,coconut sugar,1000,656
+92,cod,1000,3214
+93,coffee beans,1000,4500
+94,coley,1000,4362
+95,coriander,1000,1133
+96,corn,1000,405
+97,corn crisps,1000,1325
+98,corn oil,1000,1199
+99,cottonseed oil,1000,2140
+100,courgette,1000,861
+101,couscous,1000,2440
+102,crab,1000,17746
+103,crackers,1000,1155
+104,cranberries,1000,2860
+105,crayfish,1000,17746
+106,cream,1000,3724
+107,cream - plant-based,1000,1873
+108,crepe,1000,711
+109,crisps,1000,4410
+110,crumpet,1000,1215
+111,cucumber,1000,1928
+112,cucumber - pickled,1000,4074
+113,cumin,1000,1133
+114,currants,1000,2100
+115,custard,1000,2454
+116,date,1000,2100
+117,dill,1000,1133
+118,doughnut,1000,6579
+119,dried peas (shelled),1000,2388
+120,duck,1000,5054
+121,eel,1000,4220
+122,eggs,1000,4506
+123,espresso,1000,706
+124,faba beans,1000,852
+125,falafel,1000,2510
+126,fennel seeds,1000,4200
+127,fish sauce,1000,222
+128,fish sticks,1000,1906
+129,fisherman pie,1000,7778
+130,five spice,1000,1133
+131,flapjacks,1000,6840
+132,flat white,1000,1613
+133,flatfish,1000,4362
+134,flounder,1000,4362
+135,flour,1000,891
+136,flour - rye,1000,709
+137,food colouring,1000,656
+138,frozen pulses,1000,1834
+139,fruit cordial,1000,1927
+140,fruit juice,1000,1711
+141,fruit pie,1000,1578
+142,fruit tea,1000,605
+143,fudge,1000,2412
+144,gammon,1000,6628
+145,garam masala,1000,1133
+146,garlic,1000,452
+147,ginger,1000,452
+148,gluten-free biscuit,1000,3300
+149,goat,1000,35714
+150,golden syrup,1000,656
+151,goose,1000,5054
+152,granola,1000,4016
+153,grapefruit juice,1000,2060
+154,grapefruits,1000,800
+155,grapes,1000,2300
+156,gravy,1000,222
+157,green beans,1000,5668
+158,green tea,1000,605
+159,groundnut oil,1000,900
+160,guinea fowl,1000,5054
+161,haddock,1000,4362
+162,hake,1000,4362
+163,halibut,1000,4362
+164,ham,1000,6628
+165,haricot beans,1000,852
+166,hazelnut paste,1000,1266
+167,hazelnut spread,1000,2710
+168,hazelnuts - chocolate covered,1000,3430
+169,herbal tea,1000,605
+170,herbs and spices,1000,1133
+171,herring,1000,1586
+172,hoki,1000,4362
+173,honey,1000,1657
+174,hot chocolate,1000,2727
+175,hummus,1000,852
+176,ice cream,1000,3802
+177,icing - to roll,1000,656
+178,instant coffee,1000,706
+179,jam,1000,2146
+180,jasmin tea,1000,605
+181,kale,1000,1609
+182,kidney beans,1000,852
+183,kipper,1000,4220
+184,kiwi,1000,621
+185,krill,1000,17746
+186,lamb,1000,20825
+187,lard,1000,6116
+188,latte,1000,1613
+189,leek,1000,1051
+190,lemon juice,1000,622
+191,lemon sole,1000,4362
+192,lemons,1000,1900
+193,lentils,1000,670
+194,lettuce,1000,2063
+195,lime,1000,1900
+196,lime juice,1000,622
+197,liquorice,1000,2412
+198,lobster,1000,17746
+199,macaroni,1000,1374
+200,mackerel,1000,895
+201,maize,1000,510
+202,mandarins,1000,1100
+203,mangoes,1000,4400
+204,maple syrup,1000,656
+205,marmalade,1000,2146
+206,marmite,1000,1660
+207,marshmallows,1000,2412
+208,marzipan,1000,1657
+209,mayonnaise,1000,4030
+210,meatless,1000,2290
+211,melons,1000,900
+212,milk,1000,1762
+213,milk - buffalo,1000,3380
+214,milk - concentrated,1000,3100
+215,milk - goats,1000,2670
+216,milk - plant-based,1000,545
+217,milk - sheeps,1000,8400
+218,milk - soy,1000,782
+219,mint,1000,1133
+220,mints,1000,2412
+221,mirin,1000,222
+222,miso paste,1000,222
+223,mixed nuts,1000,2056
+224,mixed seeds,1000,2978
+225,mocha,1000,1613
+226,muesli,1000,1015
+227,muffin,1000,6579
+228,mushrooms,1000,1405
+229,mussels,1000,3036
+230,mustard,1000,222
+231,mustard oil,1000,2900
+232,naan bread - plain,1000,1215
+233,nectarines,1000,1900
+234,noodles,1000,1374
+235,nutmeg,1000,1133
+236,oat flakes,1000,790
+237,oatly oat drink,1000,318
+238,oatly oat drink - barista edition,1000,376
+239,oatly oat drink - calcium,1000,283
+240,oatly oat drink - calcium organic,1000,395
+241,oatly oat drink - chocolate,1000,350
+242,oatly oat drink - chocolate deluxe,1000,330
+243,oatly oat drink - deluxe,1000,300
+244,"oatly oat drink - deluxe (germany, austria, netherlands)",1000,685
+245,oatly oat drink - low-fat,1000,390
+246,oatly oat drink - low-fat organic,1000,290
+247,oatly oat drink - orange mango,1000,385
+248,oatly oat drink - organic,1000,321
+249,oatly oat drink - semi-skimmed,1000,515
+250,oatly oat drink - semi-skimmed organic,1000,315
+251,oatly oat drink - vanilla,1000,430
+252,oatly oat drink - vanilla organic,1000,350
+253,oats,1000,785
+254,octopus,1000,3036
+255,olive oil,1000,2526
+256,olives,1000,463
+257,onion,1000,1051
+258,onion - frozen,1000,2308
+259,onion - pickled,1000,2543
+260,orange juice,1000,2000
+261,oranges,1000,1900
+262,oregano,1000,1133
+263,other pulses,1000,3300
+264,other spirits,1000,2320
+265,oyster sauce,1000,222
+266,oysters,1000,3036
+267,palm oil,1000,6116
+268,pancake,1000,711
+269,pancetta,1000,6628
+270,pangasius,1000,4362
+271,papaya,1000,4400
+272,paprika,1000,1133
+273,parsley,1000,1133
+274,parsnips,1000,678
+275,passata,1000,1959
+276,pasta,1000,1374
+277,pastry,1000,6579
+278,peaches,1000,1900
+279,peaches - canned,1000,2900
+280,peanut,1000,1360
+281,peanut butter,1000,2107
+282,peanut oil,1000,3637
+283,pears,1000,1028
+284,peas,1000,4228
+285,peas,1000,2324
+286,pecan,1000,2129
+287,peppermint extract,1000,656
+288,peppers,1000,2019
+289,peppers - green,1000,2019
+290,peppers - pickled,1000,3840
+291,pesto,1000,2526
+292,pineapple juice,1000,2523
+293,pineapples,1000,1700
+294,pineapples - dried,1000,4900
+295,pistachio,1000,2330
+296,pitta bread,1000,1215
+297,plaice,1000,4362
+298,plant-based spread,1000,3081
+299,plums,1000,1125
+300,prunes,1000,4440
+301,polenta,1000,760
+302,pollock,1000,3214
+303,pork,1000,6628
+304,porridge,1000,3958
+305,potatoes,1000,1273
+306,prawn,1000,17746
+307,pumpkin seeds,1000,4200
+308,quinoa,1000,816
+309,quorn,1000,2400
+310,quorn classic burger,1000,2550
+311,quorn crispy nuggets,1000,1967
+312,quorn mince,1000,1691
+313,quorn pieces,1000,1709
+314,quorn sausages,1000,1700
+315,quorn vegan nuggets,1000,2550
+316,quorn vegan pieces,1000,1600
+317,rabbit,1000,11019
+318,raisins,1000,2100
+319,rapeseed oil,1000,2404
+320,raspberries,1000,2569
+321,raspberries - frozen,1000,2300
+322,red onion,1000,1051
+323,relish,1000,1656
+324,rhubarb,1000,844
+325,rice,1000,1354
+326,rocket,1000,1609
+327,rosemary,1000,1133
+328,rum,1000,2320
+329,sage,1000,1133
+330,salad cream,1000,4030
+331,salad dressing,1000,4607
+332,salad leaves,1000,1609
+333,salmon,1000,4787
+334,salt,1000,1133
+335,sausage,1000,6628
+336,sardines,1000,4220
+337,scallops,1000,3036
+338,scones,1000,3064
+339,sea bass,1000,4362
+340,seabass,1000,4362
+341,seaweed,1000,3036
+342,sesameseed oil,1000,4200
+343,shallot,1000,1051
+344,shepherds pie - ready meal,1000,12222
+345,sherry,1000,1369
+346,shrimp,1000,17746
+347,snack bar - chocolate,1000,5070
+348,snack bar - muesli,1000,6840
+349,soft drink,1000,622
+350,soft drink,1000,622
+351,soy sauce,1000,222
+352,soybean oil,1000,1583
+353,soybeans,1000,2000
+354,spagheti bolognese - ready meal,1000,11667
+355,spaghetti,1000,1374
+356,spinach,1000,1457
+357,spinach - canned,1000,1787
+358,spinach - frozen,1000,1571
+359,spring onion,1000,1051
+360,squash,1000,1162
+361,squid,1000,3036
+362,steak,1000,43330
+363,stir fry sauce,1000,222
+364,stock,1000,222
+365,strawberries,1000,2243
+366,strawerries - frozen,1000,2334
+367,sugar,1000,656
+368,sunflower oil,1000,2545
+369,sunflower seeds,1000,848
+370,swedes,1000,678
+371,sweet potato,1000,1273
+372,sweetcorn - canned,1000,2605
+373,sweetcorn - frozen,1000,2524
+374,sweetcorn - on the cob,1000,1576
+375,sweetcorn - packaged,1000,2406
+376,sweets,1000,2412
+377,sweets - milk-based,1000,4210
+378,tagliatelle,1000,1374
+379,tahini,1000,852
+380,tamari,1000,222
+381,tapioca starch,1000,594
+382,tea - with milk,1000,631
+383,tempeh,1000,1093
+384,tequila,1000,2320
+385,thyme,1000,1133
+386,toffee,1000,2412
+387,tomatoes,1000,2905
+388,tortilla wrap,1000,1081
+389,treacle,1000,656
+390,trout,1000,4220
+391,tuna,1000,10165
+392,turkey,1000,6448
+393,turmeric,1000,1133
+394,turnips,1000,678
+395,valess,1000,5008
+396,vanilla,1000,656
+397,veal,1000,18938
+398,vegetable oil,1000,3200
+399,venison,1000,20986
+400,vinegar,1000,222
+401,vodka,1000,2320
+402,walnut,1000,2129
+403,watercress,1000,1609
+404,wheat,1000,718
+405,whiskey,1000,2320
+406,whiting,1000,4362
+407,wine,1000,1369
+408,worcestershire sauce,1000,222
+409,yogurt,1000,2200
