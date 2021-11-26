@@ -1,8 +1,7 @@
-# packaging
 pip>=9
 setuptools>=26
-twine
 wheel>=0.29
+pytest
 
 # data science
 numpy==1.18.5
@@ -14,10 +13,25 @@ tensorflow<2.6
 
 # tests/linter
 black==19.10b0
+
 coverage
 flake8
-pytest
+black
 yapf
+
+python-gitlab
+twine
+six==1.14.0
+numpy==1.18.5
+pandas
+scikit-learn==0.22
+joblib
+memoized-property
+mlflow
+s3fs
+gcsfs
+google-cloud-storage
+termcolor
 
 # API
 gcsfs

@@ -7,3 +7,4 @@ raw_data/
 .env
 keys.py
 models/
+.python-version
