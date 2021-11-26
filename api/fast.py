@@ -19,6 +19,7 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
 )
+
 @app.get("/")
 def index():
     return {"greeting": "Hello world"}
@@ -29,7 +30,7 @@ class Item(BaseModel):
     width:int
     color:int
 
-model_path= os.path.join('..','models/10_VGG16.h5')
+model_path= os.path.join('models/10_86_7_DN121_AUG_TV_ES5_RLR1_TL2_ES5_RLR1_TL3.h5')
 # model_path='/home/mateo/code/Matbeac/fritz/models/10_86_7_DN121_AUG_TV_ES5_RLR1_TL2_ES5_RLR1_TL3.h5'
 classes_path= '/home/mateo/code/Matbeac/fritz/models/10_VGG16.csv'
 model = load_model(model_path)
@@ -43,7 +44,7 @@ async def predict(image:Item):
     # Resize the image ⚠ WITHOUT PAD
     response_reshape = tf.image.resize(response_reshape,[224, 224])
 
-    # Load the model
+    # Load the model    
     probabilities=model.predict(np.array([response_reshape/255]))
     index=np.argmax(probabilities)
     recipe = load_classes(classes_path,index)
