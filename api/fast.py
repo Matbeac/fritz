@@ -9,7 +9,7 @@ import tensorflow as tf
 import os
 from tensorflow import keras
 from fritz.utils import load_model, load_classes
-
+import base64
 app = FastAPI()
 
 app.add_middleware(
@@ -19,9 +19,14 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
 )
+model_path="/home/mateo/code/Matbeac/fritz/models/100_84_DN121_TL3_GAP.h5"
+# model_path='/home/mateo/code/Matbeac/fritz/models/10_86_7_DN121_AUG_TV_ES5_RLR1_TL2_ES5_RLR1_TL3.h5'
+classes_path= '/home/mateo/code/Matbeac/fritz/models/100_84_DN121_TL3_GAP.csv'
+model = load_model(model_path)
 
 @app.get("/")
 def index():
+    model = load_model(model_path)    
     return {"greeting": "Hello world"}
 
 class Item(BaseModel):
@@ -29,14 +34,16 @@ class Item(BaseModel):
     height:int
     width:int
     color:int
+    
 
-model_path= os.path.join('../models/100_84_DN121_TL3_GAP.h5')
-# model_path='/home/mateo/code/Matbeac/fritz/models/10_86_7_DN121_AUG_TV_ES5_RLR1_TL2_ES5_RLR1_TL3.h5'
-classes_path= os.path.join('../models/100_84_DN121_TL3_GAP.csv')
-model = load_model(model_path)
 
 @app.post("/predict")
 async def predict(image:Item):
+    # Try to encode
+    # response=base64.b64decode(image.image_reshape)
+    # q=np.frombuffer(response,dtype=np.uint8)
+    # response_reshape=q.reshape((image.height,image.width,image.color))
+    
     # Get the image from the upload
     response = np.array(json.loads(image.image_reshape))
     response_reshape=response.reshape((image.height,image.width,image.color))
@@ -53,8 +60,11 @@ async def predict(image:Item):
 
 @app.post("/items/")
 async def create_item(item: Item):
-    response = np.array(json.loads(item.image_reshape))
-    response_reshape=response.reshape((item.height,item.width,item.color))
+    response=base64.b64decode(item.image_reshape)
+    q=np.frombuffer(response,dtype=np.uint8)
+    response_reshape=q.reshape((item.height,item.width,item.color))
+    # response = np.array(json.loads(item.image_reshape))
+    # response_reshape=response.reshape((item.height,item.width,item.color))
     filehandler = open(b"Image.obj","wb")
     pickle.dump(response_reshape,filehandler)
     return "item"
